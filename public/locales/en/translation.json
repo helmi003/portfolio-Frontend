@@ -1,0 +1,68 @@
+{
+    "hi":"Hi, I am",
+    "I Like Building Things":"I Like Building Things",
+    "Mobile and Web Developer":"Mobile and Web Developer",
+    "Life Long Learner":"Life Long Learner",
+    "About":"About",
+    "Read more":"Read more",
+    "I_am_a_mobile_and_web_developer":"I am a mobile and web developer. I have experience as a full stack developer . I have built a lot of Websites and mobile apps. Also, I am always learning and experimenting with new technologies (currently learning about MERN stack and Flutter ) and other topics other than web and mobile apps like Unity.",
+    "What i can do":"What i can do",
+    "Services":"Services",
+    "web design":"web design",
+    "I do ui/ux design for both mobile and web that it helps to get a unique look":"I do ui/ux design for both mobile and web that it helps to get a unique look.",
+    "web dev":"web dev",
+    "I also develop websites. I always try to create high performance websites":"I also develop websites. I always try to create high performance websites .",
+    "app Dev":"app Dev",
+    "I develop mobile application. I create mobile app with Flutter":"I develop mobile applications. I create mobile app with Flutter.",
+    "some of my recent works":"some of my recent works",
+    "Projects":"Projects",
+    "There was an error occurred while fetching the data":"There was an error occurred while fetching the data",
+    "View more projects":"View more projects",
+    
+
+    "I am from Tunisia":"I am from Tunisia, Nabeul. A place of beauty and nature. 22 years old, ambition student, ready for the upcoming. Since my childhood, i love gaming and software development. I always try to develop stuff with my unique point of view. I also love to create things that can be usefull to others.",
+    "I started coding since I was in school":"I started coding since I was in school. Coding is also an art for me. I love it and now I have the opportunity to design along with the coding. I find it really interesting and I enjoyed the process a lot.",
+    "My vision is to make the world a better place":"My vision is to make the world a better place. Now almost everything is becoming better than ever. It is time for us to create more good stuff that helps the world to become a better place.",
+    "EDUCATION":"EDUCATION",
+    "School":"School",
+    "high school":"high school",
+    "MY SKILLS":"MY SKILLS",
+    "Data base":"Data base",
+    "Languages":"Languages",
+    "EXPERIENCE":"EXPERIENCE",
+    "Internships":"Internships",
+    "FrontEnd Developer":"FrontEnd Developer",
+    "FrontEnd and BackEnd Developer":"FrontEnd and BackEnd Developer",
+    "Currently":"Currently",
+    "I am studying at ISET Sousse":"I am studying at ISET Sousse information system development to get my master degree then i'll try to redirect to software engineering in a private university.",
+    
+    
+    "Some of my recent works":"Some of my recent works",
+    "Search":"Search",
+    "There is no project with this name":"There is no project with this name",
+
+
+    "Your message has been sent successfully":"Your message has been sent successfully",
+    "An error accurred while sending the data":"An error accured while sending the data",
+    "Name":"Name",
+    "The name should be":"The name should be 3-20 characters and shouldn't include any special character!",
+    "It should be a valid email address":"It should be a valid email address",
+    "Subject":"Subject",
+    "The subject should not be empty":"The subject should not be empty!",
+    "Get in touch":"Get in touch",
+    "Street monsof bey":"Street monsof bey",
+    "The message should contain at least 10 characters":"The message should contain at least 10 characters!",
+    "Send":"Send",
+
+
+    "Resume":"Resume",
+
+
+    "About the project":"About the project",
+    "Technologies":"Technologies",
+    "Screenshots":"Screenshots",
+    "Showcase":"Showcase",
+
+
+    "All rights reserved":"All rights reserved"
+}

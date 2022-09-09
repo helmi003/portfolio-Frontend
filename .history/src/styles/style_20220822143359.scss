@@ -1,0 +1,11 @@
+@import "./variables.scss";
+
+.home {
+    &__image__profile {
+        height: 90px;
+        &__profile {
+            height: 90px;
+            
+        }
+    }
+}

@@ -1,0 +1,18 @@
+@import "./../styles/variables.scss";
+
+.container {
+    height: calc(100vh - #{$headerHeight});
+    background: $bg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__span{
+        height: 100px;
+    }
+    span{
+        color: rgb(21, 115, 202);
+    }
+    
+     
+}
+ 

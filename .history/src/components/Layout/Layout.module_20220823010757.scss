@@ -1,0 +1,33 @@
+@import "../../styles/variables.scss";
+
+.backg {
+  background: $bg;
+}
+.container {
+  height: calc(100vh - #{$headerHeight});
+  margin-left: 90px;
+  margin-right: 50px;
+  &__home {
+    margin-top: 50px;
+    &__identificator {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &__name {
+        color: $primary;
+      }
+      &__title {
+        color: $secondary;
+      }
+    }
+    &__profile {
+      height: 400px;
+      border-radius: $borderRadius;
+    }
+    &__about{
+      &__more{
+        font-size: 20px;
+      }
+    }
+  }
+}

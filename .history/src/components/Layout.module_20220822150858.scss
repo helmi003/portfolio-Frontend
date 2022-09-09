@@ -1,0 +1,17 @@
+@import "./../styles/variables.scss";
+
+.container {
+  height: calc(100vh - #{$headerHeight});
+  background: $bg;
+  &__home {
+    &__identificator{
+        di
+    }
+    &__profile {
+      height: 400px;
+    }
+    span {
+      color: rgb(21, 115, 202);
+    }
+  }
+}

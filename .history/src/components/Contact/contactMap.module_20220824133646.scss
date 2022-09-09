@@ -1,0 +1,39 @@
+.div {
+    background: url("../../images/map.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 400px;
+    &__map {
+      position: relative;
+      min-height: 400px;
+    }
+    &__card {
+      position: absolute;
+      right: 10%;
+      bottom: 10%;
+      padding: 2rem;
+      background: var(--deep-dark);
+      width: 100%;
+      max-width: 300px;
+      border-radius: 12px;
+    }
+    &__card__heading {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    &__card__link {
+      display: inline-block;
+      font-size: 1.6rem;
+      margin-top: 3rem;
+      text-decoration: underline;
+    }
+    @media only screen and (max-width: 768px) {
+      background-position: 80% center;
+    }
+    @media only screen and (max-width: 400px) {
+      &__map__card {
+        max-width: none;
+        right: auto;
+      }
+    }
+  }

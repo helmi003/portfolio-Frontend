@@ -1,0 +1,26 @@
+@import "./../styles/variables.scss";
+
+.backg{
+    background: $bg;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container {
+    
+  height: calc(100vh - #{$headerHeight});
+  
+  &__home {
+    margin-top: 50px;
+    &__identificator{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__profile {
+      height: 400px;
+    }
+    span {
+      color: rgb(21, 115, 202);
+    }
+  }
+}

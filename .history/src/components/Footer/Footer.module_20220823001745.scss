@@ -1,0 +1,38 @@
+@import "../../styles/variables.scss";
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: $dark;
+  width: 100%;
+  height: $headerHeight;
+  padding: 0 1.5rem;
+  @include breakpoint(md) {
+    padding: 0 3rem;
+  }
+  transition: 0.3s ease all;
+  color: $light;
+  &__span {
+    &__name {
+      color: $secondary;
+    }
+  }
+  // &__icons {
+  //   display: flex;
+  //   justify-content: space-between;
+  //   color: red;
+  //   background: red;
+  //   &:hover {
+  //     background: rgba($light, 0.1);
+  //   }
+  //   &:active {
+  //     border-radius: calc(#{$borderRadius} + 6px);
+  //     background: linear-gradient(rgba($light, 0.1), rgba($light, 0.2));
+  //   }
+  // }
+}
+
+.test{
+  background: red;
+}

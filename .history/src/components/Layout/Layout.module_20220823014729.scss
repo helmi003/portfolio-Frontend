@@ -1,0 +1,50 @@
+@import "../../styles/variables.scss";
+
+.backg {
+  background: $bg;
+}
+.container {
+  @include breakpoint(md) {
+    padding: 0 3rem;
+  }
+  transition: 0.3s ease all;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  &__home {
+    &__identificator {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &__name {
+        color: $primary;
+      }
+      &__title {
+        color: $secondary;
+      }
+    }
+    &__profile {
+      height: 400px;
+      border-radius: $borderRadius;
+    }
+    &__about {
+      p {
+        padding-left: 10px;
+      }
+    }
+    &__portfolio {
+      a {
+        text-decoration: none;
+        font-size: 20px;
+        color: $secondary;
+      }
+      &__content {
+        background: $gray;
+        border-radius: $borderRadius;
+        padding: 10px;
+        &:hover {
+          background: rgba($secondary, 0.1);
+        }
+      }
+    }
+  }
+}

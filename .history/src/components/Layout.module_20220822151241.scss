@@ -1,0 +1,18 @@
+@import "./../styles/variables.scss";
+
+.container {
+    margin-top: ;
+  height: calc(100vh - #{$headerHeight});
+  background: $bg;
+  &__home {
+    &__identificator{
+        display: flex;
+    }
+    &__profile {
+      height: 400px;
+    }
+    span {
+      color: rgb(21, 115, 202);
+    }
+  }
+}

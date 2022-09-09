@@ -1,0 +1,66 @@
+{
+    "hi":"Salut, je suis",
+    "I Like Building Things":"J'aime construire des choses",
+    "Mobile and Web Developer":"Développeur Mobile et Web",
+    "Life Long Learner":"apprenant tout au long de ma vie",
+    "About":"À propos",
+    "Read more":"Lire la suite",
+    "I_am_a_mobile_and_web_developer":"Je suis développeur mobile et web. J'ai de l'expérience en tant que développeur full stack. J'ai construit beaucoup de sites Web et d'applications mobiles. De plus, j'apprends et expérimente toujours de nouvelles technologies (actuellement en train d'apprendre la pile MERN et Flutter) et d'autres sujets autres que les applications Web et mobiles comme Unity.",
+    "What i can do":"Qu'est-ce que je peux faire",
+    "Services":"sérvices",
+    "web design":"designeur des site",
+    "I do ui/ux design for both mobile and web that it helps to get a unique look":"Je fais de la conception ui/ux pour le mobile et le web, ce qui aide à obtenir un look unique.",
+    "web dev":"web dev",
+    "I also develop websites. I always try to create high performance websites":"Je développe également des sites internet. J'essaie toujours de créer des sites Web performants.",
+    "app Dev":"app Dev",
+    "I develop mobile application. I create mobile app with Flutter":"Je développe des applications mobiles. Je crée une application mobile avec Flutter.",
+    "some of my recent works":"quelques unes de mes oeuvres récentes",
+    "Projects":"Projets",
+    "There was an error occurred while fetching the data":"Une erreur s'est produite lors de la récupération des données",
+    "View more projects":"Voir plus de projets",
+
+
+    "I am from Tunisia":"Je viens de Tunisie, Nabeul. Un lieu de beauté et de nature. 22 ans, étudiant ambitieux, prêt pour l'avenir. Depuis mon enfance, j'adore les jeux et le développement de logiciels. J'essaie toujours de développer des choses avec mon point de vue unique. J'aime aussi créer des choses qui peuvent être utiles aux autres.",
+    "I started coding since I was in school":"J'ai commencé à coder depuis que j'étais à l'école. Coder est aussi un art pour moi. J'adore ça et maintenant j'ai la possibilité de concevoir en même temps que le codage. Je trouve cela vraiment intéressant et j'ai beaucoup apprécié le processus.",
+    "My vision is to make the world a better place":"Ma vision est de rendre le monde meilleur. Maintenant, presque tout devient meilleur que jamais. Il est temps pour nous de créer plus de bonnes choses qui aident le monde à devenir un meilleur endroit.",
+    "EDUCATION":"ÉDUCATION",
+    "School":"École",
+    "high school":"lycée",
+    "MY SKILLS":"MES COMPÉTENCES",
+    "Data base":"Base de données",
+    "Languages":"Langages",
+    "EXPERIENCE":"EXPÉRIENCE",
+    "Internships":"Stages",
+    "FrontEnd Developer":"Développeur FrontEnd",
+    "FrontEnd and BackEnd Developer":"Développeur FrontEnd et BackEnd",
+    "Currently":"Actuellement",
+    "I am studying at ISET Sousse":"J'étudie à l'ISET Sousse le développement des systèmes d'information pour obtenir mon diplôme de master puis je vais essayer de me réorienter vers le génie logiciel dans une université privée.",
+
+
+    "Some of my recent works":"Quelques unes de mes oeuvres récentes",
+    "Search":"Recherche",
+    "There is no project with this name":"Il n'y a pas de projet avec ce nom",
+
+
+    "Your message has been sent successfully":"Votre message a été envoyé avec succès",
+    "An error accurred while sending the data":"Une erreur s'est produite lors de l'envoi des données",
+    "Name":"Prénom",
+    "The name should be":"Le nom doit comporter entre 3 et 20 caractères et ne doit contenir aucun caractère spécial !",
+    "It should be a valid email address":"Il doit s'agir d'une adresse e-mail valide",
+    "Subject":"Sujet",
+    "The subject should not be empty":"Le sujet ne doit pas être vide !",
+    "Get in touch":"Entrer en contact",
+    "Street monsof bey":"Rue monsof bey",
+    "The message should contain at least 10 characters":"Le message doit contenir au moins 10 caractères !",
+    "Send":"Envoyer",
+
+    "Resume":"Résumer",
+
+
+    "About the project":"À propos du projet",
+    "Technologies":"Les technologies",
+    "Screenshots":"Captures d'écran",
+    "Showcase":"Vitrine",
+
+    "All rights reserved":"Tous les droits sont réservés"
+}

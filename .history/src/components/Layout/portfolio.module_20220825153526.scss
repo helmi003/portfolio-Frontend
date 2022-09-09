@@ -1,0 +1,20 @@
+@import "../../styles/variables.scss";
+@import "./variables.scss";
+&__portfolio {
+  p {
+    background: $gray;
+    border-radius: $borderRadius;
+    text-align: justify;
+    padding: 10px;
+    max-width: 400px;
+    &:hover {
+      background: rgba($secondary, 0.1);
+      cursor: pointer;
+    }
+  }
+  img {
+    max-height: 400px;
+    max-width: 400px;
+    border-radius: $borderRadius;
+  }
+}
