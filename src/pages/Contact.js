@@ -22,12 +22,10 @@ const Contact = () => {
         "qkDRc-J9QwNGAmCqk"
       )
       .then(
-        (result) => {
-          console.log(result.text);
+        () => {
           toast.success(t("Your message has been sent successfully"));
         },
-        (error) => {
-          console.log(error.text);
+        () => {
           toast.error(t("An error accured while sending the data"));
         }
       );

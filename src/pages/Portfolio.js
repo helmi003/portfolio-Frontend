@@ -14,9 +14,7 @@ const Portfolio = () => {
   useEffect(() => {
     dispatch(listProjects());
   }, [dispatch]);
-  console.log(projects);
   const [search, setSearch] = useState("");
-  console.log(search);
   return (
     <>
       <div className={classes.container__portfolio}>
