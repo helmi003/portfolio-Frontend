@@ -11,7 +11,7 @@ export const listProjects = () => async (dispatch) => {
       type: PROJECTS_LIST_REQUEST,
     });
 
-    const { data } = await axios.get(`/api/projects`);
+    const { data } = await axios.get(`https://helmi-portfolio.herokuapp.com/api/projects`);
 
     dispatch({
       type: PROJECTS_LIST_SUCCESS,
