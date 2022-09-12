@@ -9,8 +9,23 @@
   transition: 0.3s ease all;
   margin-bottom: 50px;
   margin-top: 50px;
+  @media only screen and (max-width: 768px) {
+    align-items: center;
+    justify-content: center;
+  }
   &__home {
     &__identificator {
+      @media only screen and (max-width: 768px) {
+        img {
+          max-height: 200px;
+        }
+        justify-content: center;
+        h1 {
+          padding: 0 2rem;
+          text-align: center;
+          margin-bottom: 5px;
+        }
+      }
       flex-wrap: wrap;
       display: flex;
       justify-content: space-between;
@@ -27,6 +42,9 @@
       border-radius: $borderRadius;
     }
     &__about {
+      @media only screen and (max-width: 768px) {
+        padding: 0 2rem;
+      }
       p {
         padding-left: 10px;
         max-width: 900px;
@@ -76,6 +94,9 @@
       }
     }
     &__portfolio {
+      @media only screen and (max-width: 768px) {
+        padding-left: 2rem;
+      }
       a {
         text-decoration: none;
         color: $dark;
@@ -85,8 +106,10 @@
         margin-right: 30px;
       }
       p {
+        @media only screen and (max-width: 768px) {
+          max-width: 300px;
+        }
         margin-top: 10px;
-
         a {
           text-decoration: none;
         }
@@ -109,6 +132,10 @@
         }
       }
       img {
+        @media only screen and (max-width: 768px) {
+          max-height: 180px;
+          max-width: 300px;
+        }
         max-height: 200px;
         max-width: 400px;
         border-radius: $borderRadius;
@@ -192,6 +219,9 @@
         }
       }
       &__right {
+        @media only screen and (max-width: 768px) {
+          max-width: 270px;
+        }
         max-width: 350px;
         input,
         textarea {
@@ -211,7 +241,7 @@
           color: red;
           display: none;
         }
-        input:invalid[focused="true"]{
+        input:invalid[focused="true"] {
           border: 1px solid red;
         }
         textarea:invalid[focused="true"] {
@@ -251,7 +281,17 @@
     }
   }
   &__about {
+    @media only screen and (max-width: 768px) {
+      padding: 0 2rem;
+    }
     &__identificator {
+      @media only screen and (max-width: 768px) {
+        img {
+          margin-top: 5px;
+          max-height: 200px;
+        }
+        justify-content: center;
+      }
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -296,6 +336,7 @@
             border-radius: $borderRadius;
             background-color: rgba($secondary, 0.1);
             padding: 5px 10px;
+            
           }
         }
       }
@@ -303,10 +344,17 @@
   }
   &__portfolio {
     &__search {
+      @media only screen and (max-width: 768px) {
+        padding-left: 2rem;
+      }
       display: flex;
       justify-content: space-between;
       margin-bottom: 100px;
+      flex-wrap: wrap;
       input {
+        @media only screen and (max-width: 768px) {
+          margin-top: 5px;
+        }
         padding: 0.8rem;
         border-radius: $borderRadius;
         text-decoration: none;
@@ -321,8 +369,12 @@
       }
     }
     &__content {
+      @media only screen and (max-width: 768px) {
+        padding-left: 2rem;
+      }
       display: flex;
       justify-content: center;
+      align-items: center;
       flex-wrap: wrap;
       a {
         text-decoration: none;
@@ -333,6 +385,9 @@
         margin-right: 30px;
       }
       p {
+        @media only screen and (max-width: 768px) {
+          max-width: 300px;
+        }
         margin-top: 10px;
         a {
           text-decoration: none;
@@ -356,6 +411,10 @@
         }
       }
       img {
+        @media only screen and (max-width: 768px) {
+          max-height: 180px;
+          max-width: 300px;
+        }
         max-height: 200px;
         max-width: 400px;
         border-radius: $borderRadius;
@@ -366,9 +425,10 @@
     }
   }
   &__project {
-    img {
-      width: 100%;
+    @media only screen and (max-width: 768px) {
+      padding: 0 2rem;
     }
+
     hr {
       margin-top: 20px;
       margin-bottom: 20px;
@@ -392,7 +452,6 @@
         transition: 0.3s ease all;
       }
       &__button1 {
-        margin-right: 10px;
         background: $primary;
         color: $dark;
         border: 1px solid transparent;
@@ -408,6 +467,7 @@
         }
       }
       &__button2 {
+        margin-left: 10px;
         color: $secondary;
         border: 1px solid $secondary;
         background: rgba($secondary, 0.1);

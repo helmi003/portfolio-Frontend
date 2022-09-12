@@ -63,7 +63,7 @@ const Header = () => {
     {
       code: "en",
       name: "English",
-      country_code: "US",
+      country_code: "GB",
     },
   ];
   const currentLanguageCode = cookies.get("i18next") || "en";
@@ -107,7 +107,7 @@ const Header = () => {
                         classes.header__content__nav__dropdown__content__flag
                       }
                     />
-                    {name}
+                    <span>{name}</span>
                   </a>
                 );
               })}

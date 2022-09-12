@@ -5,7 +5,8 @@ function projectDiv({ project }) {
   const lang = cookies.get("i18next") || "en";
   return (
     <div>
-      <img src={`https://helmi-portfolio.herokuapp.com/${project.screenshots[0]}`} alt={project.screenshots[0]} />
+      {/* <img src={`https://helmi-portfolio.herokuapp.com/${project.screenshots[0]}`} alt={project.screenshots[0]} /> */}
+      <img src={project.screenshots[0]} alt={project.screenshots[0]} />
       <Link to={`/Portfolio/${project._id}`}>
         <p>
           <span>{project.title}</span>

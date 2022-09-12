@@ -1,52 +1,8 @@
 import { useState } from "react";
-const slideStyles = {
-  display: "block",
-  marginLeft: "auto",
-  marginRight: "auto",
-  maxHeight: "600px",
-  maxWidth: "1300px",
-  borderRadius: "12px",
-  width: "auto",
-  height: "auto",
-};
-
-const rightArrowStyles = {
-  position: "absolute",
-  top: "50%",
-  transform: "translate(0, -50%)",
-  right: "32px",
-  fontSize: "45px",
-  color: "#CD177C",
-  zIndex: 1,
-  cursor: "pointer",
-};
-
-const leftArrowStyles = {
-  position: "absolute",
-  top: "50%",
-  transform: "translate(0, -50%)",
-  left: "32px",
-  fontSize: "45px",
-  color: "#CD177C",
-  zIndex: 1,
-  cursor: "pointer",
-};
-
-const sliderStyles = {
-  position: "relative",
-  height: "100%",
-};
-
-const dotsContainerStyles = {
-  display: "flex",
-  justifyContent: "center",
-};
-
-const dotStyle = {
-  margin: "0 3px",
-  cursor: "pointer",
-  fontSize: "20px",
-};
+import classes from "./ImageSlider.module.scss";
+if (window.matchMedia("(min-width: 768px)").matches) {
+  console.log("Media Query Temchi");
+}
 
 const ImageSlider = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -64,24 +20,26 @@ const ImageSlider = ({ slides }) => {
     setCurrentIndex(slideIndex);
   };
   return (
-    <div style={sliderStyles}>
+    <div className={classes.sliderStyles}>
       <div>
-        <div onClick={goToPrevious} style={leftArrowStyles}>
+        <div onClick={goToPrevious} className={classes.leftArrowStyles}>
           ❰
         </div>
-        <div onClick={goToNext} style={rightArrowStyles}>
+        <div onClick={goToNext} className={classes.rightArrowStyles}>
           ❱
         </div>
       </div>
       <img
-        style={slideStyles}
+        className={classes.slideStyles}
+        // style={slideStyles}
         src={`https://helmi-portfolio.herokuapp.com/${slides[currentIndex]}`}
         alt="screenshot"
       />
-      <div style={dotsContainerStyles}>
+      <div className={classes.dotsContainerStyles}>
         {slides.map((slide, slideIndex) => (
           <div
-            style={dotStyle}
+            className={classes.dotStyle}
+            // style={dotStyle}
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
           >

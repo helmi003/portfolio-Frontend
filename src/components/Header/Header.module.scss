@@ -11,7 +11,6 @@
   transition: 0.3s ease all;
 
   &__content {
-    // overflow: hidden;
     color: $light;
     margin: 0 auto;
     max-width: 1920px;
@@ -114,7 +113,11 @@
         transform: translate(100%);
       }
       &__dropdown {
-        margin-right: calc(0.5rem + #{$spacing-md});
+        margin-bottom: $spacing-lg;
+        @include breakpoint(md) {
+          margin-bottom: 0;
+          margin-right: calc(0.5rem + #{$spacing-md});
+        }
         position: relative;
         display: inline-block;
         &:hover &__content {
@@ -135,7 +138,6 @@
               background-color: rgba($secondary, 0.7);
               border-radius: $borderRadius;
             }
-            
           }
           &__flag {
             width: 30px;
