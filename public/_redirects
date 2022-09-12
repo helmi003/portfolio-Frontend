@@ -1,0 +1,2 @@
+/api/projects https://helmi-portfolio.herokuapp.com/api/projects 200!
+/api/projects/:id https://helmi-portfolio.herokuapp.com/api/projects/:id 200!
