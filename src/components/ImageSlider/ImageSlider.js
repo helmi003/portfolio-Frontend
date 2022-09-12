@@ -31,7 +31,6 @@ const ImageSlider = ({ slides }) => {
       </div>
       <img
         className={classes.slideStyles}
-        // style={slideStyles}
         src={`https://helmi-portfolio.herokuapp.com/${slides[currentIndex]}`}
         alt="screenshot"
       />
@@ -39,7 +38,6 @@ const ImageSlider = ({ slides }) => {
         {slides.map((slide, slideIndex) => (
           <div
             className={classes.dotStyle}
-            // style={dotStyle}
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
           >
