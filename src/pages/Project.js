@@ -12,7 +12,7 @@ export default function Project() {
   let { id } = useParams();
   const [projects, setProjects] = useState([]);
   const getProjectByID = async () => {
-    const { data } = await axios.get(`https://helmi-portfolio.herokuapp.com/api/projects/${id}`);
+    const { data } = await axios.get(`/api/projects/${id}`);
     setProjects(data);
   };
   useEffect(() => {
