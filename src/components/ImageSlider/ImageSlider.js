@@ -1,8 +1,5 @@
 import { useState } from "react";
 import classes from "./ImageSlider.module.scss";
-if (window.matchMedia("(min-width: 768px)").matches) {
-  console.log("Media Query Temchi");
-}
 
 const ImageSlider = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);

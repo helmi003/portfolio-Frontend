@@ -98,7 +98,6 @@ const Header = () => {
                     }}
                     onClick={() => {
                       i18next.changeLanguage(code);
-                      console.log(code);
                     }}
                     href={`#${code}`}
                   >
