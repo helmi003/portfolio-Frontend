@@ -52,17 +52,12 @@ export default function Project() {
               </button>
             </a>
           )}
-          {projects?.showcase?.[1] === "" ? (
+          {projects?.showcase?.[1]===""?}
+          <a href={projects?.showcase?.[1]}>
             <button className={classes.container__project__buttons__button2}>
               SOURCE CODE
             </button>
-          ) : (
-            <a href={projects?.showcase?.[1]}>
-              <button className={classes.container__project__buttons__button2}>
-                SOURCE CODE
-              </button>
-            </a>
-          )}
+          </a>
         </div>
       </div>
     </>

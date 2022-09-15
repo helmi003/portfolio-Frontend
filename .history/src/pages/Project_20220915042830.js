@@ -8,7 +8,7 @@ import cookies from "js-cookie";
 
 export default function Project() {
   const lang = cookies.get("i18next") || "en";
-  const { t } = useTranslation();
+  const { t } = useTranslation(); 
   let { id } = useParams();
   const [projects, setProjects] = useState([]);
   const getProjectByID = async () => {
@@ -18,16 +18,18 @@ export default function Project() {
   useEffect(() => {
     getProjectByID();
   });
-  let images = [];
-  projects.screenshots?.map((screenshot) => images.push(screenshot));
+  let images = []
+  projects.screenshots?.map((screenshot)=>(
+    images.push(screenshot)
+  ))
   return (
     <>
       <div className={classes.container__project}>
         <h1>{projects?.title}</h1>
-        <p>{lang === "en" ? projects?.subtitle : projects?.subtitleFR} </p>
+        <p>{lang === "en"?projects?.subtitle:projects?.subtitleFR} </p>
         <hr />
         <h2>{t("About the project")}</h2>
-        <p>{lang === "en" ? projects?.about : projects?.aboutFR} </p>
+        <p>{lang === "en"?projects?.about:projects?.aboutFR} </p>
         <br />
         <h2>{t("Technologies")}</h2>
         <ul>
@@ -41,28 +43,17 @@ export default function Project() {
         <br />
         <h2>{t("Showcase")}</h2>
         <div className={classes.container__project__buttons}>
-          {projects?.showcase?.[0] === "" ? (
+          {projects?.showcase?.[0]}
+          <a href={projects?.showcase?.[0]}>
             <button className={classes.container__project__buttons__button1}>
               DEMO
             </button>
-          ) : (
-            <a href={projects?.showcase?.[0]}>
-              <button className={classes.container__project__buttons__button1}>
-                DEMO
-              </button>
-            </a>
-          )}
-          {projects?.showcase?.[1] === "" ? (
+          </a>
+          <a href={projects?.showcase?.[1]}>
             <button className={classes.container__project__buttons__button2}>
               SOURCE CODE
             </button>
-          ) : (
-            <a href={projects?.showcase?.[1]}>
-              <button className={classes.container__project__buttons__button2}>
-                SOURCE CODE
-              </button>
-            </a>
-          )}
+          </a>
         </div>
       </div>
     </>
