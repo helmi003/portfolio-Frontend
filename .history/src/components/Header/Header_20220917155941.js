@@ -7,7 +7,7 @@ import classes from "../Header/Header.module.scss";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 import PDFFR from '../../pages/Helmi-Ben-Romdhane-cv-fr.pdf'
-import PDFEN from '../../pages/Helmi-Ben-Romdhane-cv-en.pdf'
+import PDFEN from '../../pages/Helmi-Ben-Romdhane-en.pdf'
 import Flags from "country-flag-icons/react/3x2";
 import cookies from "js-cookie";
 import i18next from "i18next";
