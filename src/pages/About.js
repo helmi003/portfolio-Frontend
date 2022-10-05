@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../assets/images/helmi.jpg";
+import profile from "../assets/images/helmi5.png";
 import classes from "../components/Layout/Layout.module.scss";
 import { useTranslation } from "react-i18next";
 const About = () => {

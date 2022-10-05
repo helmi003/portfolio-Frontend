@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import profile from "../assets/images/helmi.jpg";
+import profile from "../assets/images/helmi5.png";
 import classes from "../components/Layout/Layout.module.scss";
 import { Link } from "react-router-dom";
 import { listProjects } from "../actions/projectAction";
