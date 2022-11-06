@@ -33,7 +33,7 @@ const About = () => {
             </p>
             <br />
             <p>
-            {t("My vision is to make the world a better place")}"
+            {t("My vision is to make the world a better place")}
             </p>
           </div>
           <div>

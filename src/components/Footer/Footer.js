@@ -22,7 +22,7 @@ const Footer = () => {
           </a>
         </div>
         <div className={classes.footer__icons__icon}>
-          <a href="https://www.linkedin.com/in/helmi-ben-romdhane-b96a71226/">
+          <a href="https://www.linkedin.com/in/helmi-ben-romdhane/">
             <i className="fab fa-linkedin" />
           </a>
         </div>
