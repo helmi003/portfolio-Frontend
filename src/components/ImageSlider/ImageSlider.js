@@ -28,9 +28,10 @@ const ImageSlider = ({ slides }) => {
       </div>
       <img
         className={classes.slideStyles}
-        src={`https://helmi-portfolio.herokuapp.com/${slides[currentIndex]}`}
+        src={`https://portfolio-backend-uaeq.onrender.com/${slides[currentIndex]}`}
         alt="screenshot"
       />
+      
       <div className={classes.dotsContainerStyles}>
         {slides.map((slide, slideIndex) => (
           <div
