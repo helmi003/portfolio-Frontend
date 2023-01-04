@@ -1,2 +1,2 @@
-/api/projects https://helmi-portfolio.herokuapp.com/api/projects 200!
-/api/projects/:id https://helmi-portfolio.herokuapp.com/api/projects/:id 200!
+/api/projects https://portfolio-backend-uaeq.onrender.com 200!
+/api/projects/:id https://portfolio-backend-uaeq.onrender.com/:id 200!
