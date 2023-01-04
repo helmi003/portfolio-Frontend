@@ -5,7 +5,7 @@ function projectDiv({ project }) {
   const lang = cookies.get("i18next") || "en";
   return (
     <div>
-      <img src={`https://portfolio-helmi-backend.netlify.app/${project.screenshots[0]}`} alt={project.screenshots[0]} />
+      <img src={`https://portfolio-backend-uaeq.onrender.com/${project.screenshots[0]}`} alt={project.screenshots[0]} />
       {/* <img src={project.screenshots[0]} alt={project.screenshots[0]} /> */}
       <Link to={`/Portfolio/${project._id}`}>
         <p>

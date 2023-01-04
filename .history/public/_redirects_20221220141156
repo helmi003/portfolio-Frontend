@@ -1,0 +1,2 @@
+/api/projects https://portfolio-backend-uaeq.onrender.com 200!
+/api/projects/:id https://portfolio-backend-uaeq.onrender.com/:id 200!

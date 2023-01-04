@@ -28,7 +28,7 @@ const ImageSlider = ({ slides }) => {
       </div>
       <img
         className={classes.slideStyles}
-        src={`https://portfolio-helmi-backend.netlify.app/${slides[currentIndex]}`}
+        src={`https://portfolio-backend-uaeq.onrender.com/${slides[currentIndex]}`}
         alt="screenshot"
       />
       
